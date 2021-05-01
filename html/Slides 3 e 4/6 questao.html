@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Exercício! Criar um formulário que utilize os
+campos texto simples, combobox, e-mail, url e um
+campo para submissão de arquivos. Colocar dois
+botões (reset e submit). -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/html/Slides 3 e 4/css/6 questao.css">
+  <title>6 questao</title>
+</head>
+
+<body>
+  <form name="form1" action="" method="GET" enctype="multipart/form-data">
+    <br><br>
+    Insira seu Nome <input type="text" name="nome" placeholder="insira seu nome" class="corNome">
+    <br><br>
+    <hr>
+    Insira seu telefone <input type="text" name="telefone" placeholder="insira seu telefone" class="corTelefone">
+    <hr>
+    <br>
+    Qual seu sexo? <select name="sexo">
+      <option value=""> -- Selecione o sexo -- </option>
+      <option value="M"> Masculino </option>
+      <option value="F"> Feminino </option>
+      <option value="?"> Prefiro não dizer </option>
+    </select>
+    <br><br>
+    <hr>
+    <label for="email">Insira seu E-mail:</label> 
+    <input type="email" name="email" placeholder="insira seu e-mail">
+    <br><br>
+    <hr>
+    <label for="url">Insira sua url:</label>
+    <input type="text" name="url">
+    <br><br><hr>
+    Insira seu arquivo <input type="file" name="arquivo">
+    <br><br><hr>
+    <input type="submit" name="Enviar" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" name="Limpar" id="">
+
+
+
+
+
+
+
+
+
+
+  </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

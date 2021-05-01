@@ -29,3 +29,6 @@ footer{
   background-color: DarkSalmon;
   color:black;
 }
+footer{
+  margin: 15em auto;
+}
