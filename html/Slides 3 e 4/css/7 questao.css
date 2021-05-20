@@ -10,4 +10,7 @@
   display: block;
   margin: auto;
 }
-
+.botaoEnviar{
+width: 10%;
+height: 15px;
+}
