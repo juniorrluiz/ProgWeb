@@ -1,13 +1,13 @@
 .dadosPet{
+
   float: left;
   display: block;
   margin: auto;
 }
-form [type="submit"] {
+.dadosTutor{
+
+  float: left;
   display: block;
   margin: auto;
 }
-form [type="reset"]{
-  display: block;
-  margin: auto;
-}
+

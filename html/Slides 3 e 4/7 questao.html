@@ -10,65 +10,100 @@
 </head>
 
 <body>
-  <form name="form1" action="" method="GET" enctype="multipart/form-data">
-    <table border="4" class="dadosPet">
-      <th>
-        <h1>Dados Pet</h1>
-      </th>
-      <tr>
-        <td>
-          <h3>Nome
-            <input type="text" name="Nome">
-          </h3>
-          <h3>Idade
-            <input type="text" name="Idade">
-          </h3>
-          <h3>Raça:
-            <select name="raça">
-              <option value=""> -- Selecione a raça</option>
-              <option value="felino"> Felino </option>
-            </select>
-          </h3>
-          <h3>Qual o sexo:
-            <input type="radio" name="sexo" value="F" /> Masculino(a)
-            <input type="radio" name="sexo" value="M" /> Feminino(a)
-          </h3>
-        </td>
-      </tr>
-    </table>
-    <tr>
-      <table border="4" class="dadosTutor">
-        <th>
-          <h1>Dados Tutor</h1>
-        </th>
+
+  <fieldset style="height: 180px; float: left; margin-left: auto; width: 150px;">
+    <form name="form1" action="" method="GET" enctype="multipart/form-data">
+      <table>
         <tr>
+          <h1> Dados do Pet</h1>
+        </tr>
+
+        <tr>
+          <td>Nome</td>
           <td>
-            <h3>Nome
-              <input type="text" name="nome">
-            </h3>
-            <h3>Endereço
-              <input type="text" name="endereço">
-            </h3>
-            <h3>Telefone:
-              <input type="text" name="telefone" placeholder="insira seu telefone">
-            </h3>
-            <h3>Email:</h3>
-            <input type="email" name="email" />
+            <label for="nomePet">
+              <input type="text" id="nome-pet" size="25">
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Idade</td>
+          <td>
+            <label for="idadePet">
+              <input type="text" id="idade-pet" size="25">
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Espécie:</td>
+          <td> <select>
+              <option value=""> -- Escolha -- </option>
+              <option value="felina">Felina</option>
+              <option value="aquáticos">Aquática</option>
+              <option value="Canina">Canina</option>
+            </select> </td>
+        </tr>
+
+        <tr>
+          <td>Sexo:</td>
+          <td>
+            <label for="macho">
+              <input type="radio" name="sexo" id="radio-masculino"> Macho</label>
+            <label for="femea">
+              <input type="radio" name="sexo" id="radio-femea"> Fêmea</label>
+          </td>
+        </tr>
+
+      </table>
+  </fieldset>
+  <fieldset style="height: 180px; width: 150px;">
+    <form name="form2" action="" method="GET" enctype="multipart/form-data">
+      <table>
+        <tr>
+          <h1> Dados do Tutor</h1>
+        </tr>
+
+        <tr>
+          <td>Nome</td>
+          <td>
+            <label for="nomeTutor">
+              <input type="text" id="nomeTutor" size="25">
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Endereço</td>
+          <td>
+            <label for="enderecoTutor">
+              <input type="text" id="enderecoTutor" size="25">
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Telefone:</td>
+          <td>
+            <label for="telefoneTutor">
+              <input type="text" id="telefoneTutor" size="25">
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Telefone:</td>
+          <td>
+            <label for="telefoneTutor">
+              <input type="text" id="telefoneTutor" size="25" placeholder="insira seu Email">
+            </label>
           </td>
         </tr>
       </table>
-
-
-
-
-
-
-
-
-
-      <input type="submit" name="Cadastrar" class="cadastrar">&nbsp;&nbsp;&nbsp;&nbsp;
-      <input type="reset" name="Limpar" class="cadastrar">
-  </form>
+      <button style="width: auto; height: auto; margin-left: auto;" type="submit">Cadastrar</button>
+      <button  type="reset">Limpar</button>
+  </fieldset>
 </body>
 
 </html>
