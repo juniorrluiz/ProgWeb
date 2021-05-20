@@ -1,0 +1,16 @@
+.dadosPet{
+
+  float: left;
+  display: block;
+  margin: auto;
+}
+.dadosTutor{
+
+  float: left;
+  display: block;
+  margin: auto;
+}
+.botaoEnviar{
+width: 10%;
+height: 15px;
+}
