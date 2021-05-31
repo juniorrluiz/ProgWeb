@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+header, footer{
+  height: 10vh;
+  background-color: rgb(128, 173, 173);
+}
+article{
+  display: block;
+  flex-direction: row;
+}
+main{
+  background-color: rgb(226, 120, 120);
+  height: 80vh;
+  flex: 1;
+}
+aside{
+  float: right;
+  height: 80vh;
+  background-color: gold;
+  width: 10vw;
+}
+.tagAside, .tagArticle, .tagSection, .tagAncora{
+  height: 13vh;
+  width: 90vh;
+  text-align:justify;
+  background-color: rgb(117, 100, 133);
+  color: rgb(255, 255, 255);
+}
+h2{
+  margin: 0 0 0 0;
+}
+.tagAside, .tagArticle, .tagSection, .tagAncora{
+  margin-bottom: 5vh;
+}
+

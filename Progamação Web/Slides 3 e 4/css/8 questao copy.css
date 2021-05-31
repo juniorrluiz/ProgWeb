@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+header {
+  height: 14vh;
+  background-color: rgb(128, 173, 173);
+}
+nav {
+  padding-top: 1vh;
+  text-align: center;
+}
+#geral {
+  display: flex;
+  flex-direction: row;
+}
+.tagAside,
+.tagArticle,
+.tagSection,
+.tagAncora {
+  height: 50vh;
+  width: 90vw;
+  text-align: justify;
+  background-color: rgb(117, 100, 133);
+  color: rgb(255, 255, 255);
+  margin-bottom: 1vh;
+}
+p{
+  text-align: justify ;
+  margin-top: 3vw;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+main {
+  background-color: rgb(226, 120, 120);
+  flex: 1;
+}
+aside {
+  background-color: gold;
+  width: 20vw;
+}
+h2 {
+  padding-left: 3vh;
+  margin: 0;
+}
+ul {
+  position: fixed;
+  list-style: none;
+  margin-left: -20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+footer{
+  background-color: rgb(128, 173, 173);
+  padding-top: 5vh;
+  text-align: center;
+  height: 10vh;
+}

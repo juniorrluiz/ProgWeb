@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+header,footer {
+  height: 10vh;
+  background-color: #ccc;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+.primeiraArticle,
+.segundaArticle,
+.terceiraArticle,
+.quartaArticle {
+  height: 15vh;
+  background-color: rgb(154, 8, 199);
+  color: rgb(255, 255, 255);
+  width: 89vw;
+}
+.primeiraArticle{
+  position: relative;
+  top: -18px;
+}
+
+main {
+  height: 154,9vh;
+  background-color: rgb(145, 117, 146);
+  
+}
+
+aside {
+  height: 154,9vh;
+  background-color: rgb(179, 86, 233);
+  width: 10vw;
+  right: 0;
+  top: auto;
+  
+}
+
+ul {
+  position: fixed;
+  list-style: none;
+  margin-left: -20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+  
+}

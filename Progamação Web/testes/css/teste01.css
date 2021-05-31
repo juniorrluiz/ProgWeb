@@ -1,0 +1,55 @@
+body{
+  background: #eee;
+  margin: 0;
+ }
+ 
+ #bannerGeral{
+  height: 100px;
+  background: #069;
+ }
+ 
+ #bannerGeral h1{
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+ }
+ 
+ #menu{
+  background: #ccc;
+  margin: 0 auto;
+  padding: 6px;
+  text-align: center;
+  margin-top: 14px;
+ }
+ 
+ #content{
+  background: #ccc;
+  float: left;
+  height: 400px;
+  margin-left: 64px;
+  margin-top: 14px;
+  width: 950px;
+  text-align: center;
+  padding: 4px;
+ }
+ 
+ 
+ #sidebar{
+  background: #999;
+  float: right;
+  margin-right: 63px;
+  height: 400px;
+  margin-top: 14px;
+  text-align: center;
+  padding: 4px;
+ }
+ 
+ #rodape{
+  background: #069;
+  float: left;
+  margin-left: 64px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 1200px;
+ }
