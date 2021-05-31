@@ -6,8 +6,15 @@ header {
   background-color: rgb(128, 173, 173);
 }
 nav {
-  padding-top: 1vh;
+  height: 5vh;
+  padding-top: 3vh;
   text-align: center;
+}
+.nav1, .nav2, .nav3, .nav4{
+  margin-right: 30vh;
+}
+.nav1{
+  margin-left: 45vh;
 }
 #geral {
   display: flex;
